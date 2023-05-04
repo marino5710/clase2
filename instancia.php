@@ -10,9 +10,9 @@ class Producto {
     public function __construct(string $nombre, int $precio, bool $disponible)
     {
         #SE LES DA VALORES A LOS ATRIBUTOS CON LOS PARAMETROS QUE RECIBE EL METODO CONSTRUCTOR
-        this->nombre = $nombre;
-        this->precio = $precio;
-        this->disponible = $disponible;
+        $this->nombre = $nombre;
+        $this->precio = $precio;
+       $this->disponible = $disponible;
 
     }
 
