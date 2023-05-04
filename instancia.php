@@ -33,5 +33,15 @@ echo "<pre>";
 var_dump($producto); 
 echo "</pre>";
 
+//INSTANCIA DE CLASE EN EL SEGUNDO OBJETO 
+$producto2 = new Producto('Monitor Curvo', 300, false);
+//LLAMADO AL METODO MOSTRAR PRODUCTO, UTILIZANDO SINTAXIS DE FLECHA ->
+
+$producto2->mostrarProducto(); 
+
+//IMPRESION EN PANTALLA DEL SEGUNDO OBJETO
+echo "<pre>";
+var_dump($producto2);
+echo "</pre>";
 
 ?>
