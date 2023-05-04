@@ -42,4 +42,21 @@ class Automovil extends Transporte {
     
 }
 
+
+// INSTANCIA DEL PRIMER OBJETO
+$bicicleta = new Bicicleta (2, 1); 
+// EJECUCION DEL METODO HEREDADO DE TRANSPORTE
+echo $bicicleta->getInfo(); 
+echo $bicicleta->getRuedas(); 
+
+echo "<hr>"; 
+
+//INSTANCIA DEL SEGUNDO OBJETO, CON EL ATRIBUTO ADICIONAL
+$auto = new Automovil(4, 4, 'Manual'); 
+
+//METOODO HEREDADO DE TRANSPORTE 
+echo $auto->getInfo(); 
+//METODO DE LA CLASE AUTOMOVIL
+echo $auto->getTransmision();
+
 ?>
