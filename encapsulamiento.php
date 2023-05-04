@@ -30,11 +30,11 @@ class Producto {
     }
  }
 
- $producto = new Producto('BRIAN', 200, true); 
-  //$producto->mostrarProducto(); 
- //echo $producto->nombre; 
- echo $producto->getNombre(); 
- $producto->setNombre('NUEVO NOMBRE'); 
- echo $producto->getNombre(); 
+$producto = new Producto('BRIAN', 200, true); 
+$producto->mostrarProducto(); 
+echo $producto->nombre; 
+echo $producto->getNombre(); 
+$producto->setNombre('NUEVO NOMBRE'); 
+echo $producto->getNombre(); 
 
 ?>
