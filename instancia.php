@@ -22,5 +22,8 @@ class Producto {
         }
 }
 
+//INSTANCIA DE LA CLASE EN EL PRIMER OBJETO 
+
+
 
 ?>
