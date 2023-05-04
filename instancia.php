@@ -23,7 +23,9 @@ class Producto {
 }
 
 //INSTANCIA DE LA CLASE EN EL PRIMER OBJETO 
+$producto = new Producto('Tablet', 200, true); 
+//LLAMADO AL METODO MOSTRAR PRODUCTO, UTILIZANDO SINTAXIS DE FLECHA ->
 
-
+$producto->mostrarProducto();
 
 ?>
