@@ -31,6 +31,10 @@ class Producto {
  }
 
  $producto = new Producto('Tablet', 200, true); 
- //
+ // $producto->mostrarProducto(); 
+ echo $producto->nombre; 
+ echo $producto->getNombre(); 
+ $producto->setNombre('Nuevo Nombre'); 
+ echo $producto->getNombre(); 
 
 ?>
