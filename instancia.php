@@ -28,4 +28,10 @@ $producto = new Producto('Tablet', 200, true);
 
 $producto->mostrarProducto();
 
+//IMPRESION EN PANTALLA PRIMER OBJETO 
+echo "<pre>"; 
+var_dump($producto); 
+echo "</pre>";
+
+
 ?>
