@@ -30,7 +30,7 @@ class Producto {
     }
  }
 
-$producto = new Producto('BRIAN', 200, true); 
+$producto = new Producto('TABLET', 200, true); 
 $producto->mostrarProducto(); 
 echo $producto->nombre; 
 echo $producto->getNombre(); 
