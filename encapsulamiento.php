@@ -11,9 +11,9 @@ class Producto {
     {
 
         #SE LES DA VALOR A LOS ATRIBUTOS CON LOS PARAMETROS QUE RECIBE EL METODO CONSTRUCTOR
-        $this-> $nombre; 
-        $this-> $precio;
-        $this-> $disponible;
+        $this->nombre = $nombre; 
+        $this->precio = $precio;
+        $this->disponible = $disponible;
     }
 
     #DEFINICION DE METODOS
@@ -30,11 +30,11 @@ class Producto {
     }
  }
 
- $producto = new Producto('Tablet', 200, true); 
- // $producto->mostrarProducto(); 
- echo $producto->nombre; 
+ $producto = new Producto('BRIAN', 200, true); 
+  //$producto->mostrarProducto(); 
+ //echo $producto->nombre; 
  echo $producto->getNombre(); 
- $producto->setNombre('Nuevo Nombre'); 
+ $producto->setNombre('NUEVO NOMBRE'); 
  echo $producto->getNombre(); 
 
 ?>
