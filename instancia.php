@@ -31,7 +31,7 @@ $producto->mostrarProducto();
 //IMPRESION EN PANTALLA PRIMER OBJETO 
 echo "<pre>"; 
 var_dump($producto); 
-//echo "</pre>";
+echo "</pre>";
 
 //INSTANCIA DE CLASE EN EL SEGUNDO OBJETO 
 $producto2 = new Producto('Monitor Curvo', 300, false);
